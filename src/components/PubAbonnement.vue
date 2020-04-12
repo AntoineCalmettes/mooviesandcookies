@@ -13,7 +13,7 @@
       Découvrir nos offres
     </p>
 
-    <b-button variant="primary" href="#">Mensuel</b-button>
+    <b-button variant="secondary" href="#">Mensuel</b-button>
     <b-button variant="success" class="ml-3" href="#">Annuels</b-button>
   </b-jumbotron>
 </div>

@@ -5,6 +5,7 @@
     <Header></Header>
     <ListTopFilms></ListTopFilms>
     <PubAbonnement></PubAbonnement>
+    <GlideSide></GlideSide>
   </div>
 </template>
 
@@ -24,13 +25,15 @@ const ListTopFilms = () => import("@/components/ListTopFilms.vue");
 const NavBar = ()=> import("@/components/NavBar.vue");
 const Header = ()=>import("@/components/Header.vue");
 const PubAbonnement = ()=>import("@/components/PubAbonnement.vue");
+const GlideSide = ()=>import("@/components/GlideSlide.vue");
 // import ListTopFilms from "@/components/ListTopFilms.vue";
 export default {
   components: {
     ListTopFilms,
     NavBar,
     Header,
-    PubAbonnement
+    PubAbonnement,
+    GlideSide
   }
   // rest of the component
 };
