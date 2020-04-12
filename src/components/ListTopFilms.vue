@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 id="topTitle">Top films
+        <h1 id="topTitle">Films les plus populaire du moment
         </h1>
         <TopFilms></TopFilms>
     </div>
